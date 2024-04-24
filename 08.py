@@ -44,5 +44,3 @@ print(genre.count("gentle_vocals"))
 # null                #空
 # error               #错误
 # warning             #警告
-#bklhjgkjugjk
-#lkl;kjlk;
