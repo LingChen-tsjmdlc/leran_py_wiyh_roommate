@@ -38,9 +38,10 @@ print((len(listB)))
 
 print(genre.index("pounding_drums"))
 
-print(genre.count("pounding_drums"))
+print(genre.count("gentle_vocals"))
 
 # NaN = Not a Number  #不是个数
 # null                #空
 # error               #错误
 # warning             #警告
+#qweqweqwe123123
