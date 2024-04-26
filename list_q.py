@@ -50,3 +50,5 @@ print("ListB:",ListB)
 print("题目5：")
 ListC=[str(message) for message in ListA]
 print("ListC:",ListC)
+for message in ListA:
+    print(message,end=",")
