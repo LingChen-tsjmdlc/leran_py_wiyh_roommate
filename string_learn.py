@@ -92,6 +92,7 @@ print(stringA.rsplit("l",1))      #字符串.rsplit(分隔符,次数)=>把字符
 print(stringA.partition("l"))    #字符串.partition(分隔符)=>把字符串按照指定的分隔符进行拆分,返回一个元组
 print(stringA.rpartition("l"))   #字符串.rpartition(分隔符)=>把字符串按照指定的分隔符进行拆分,返回一个元组
 
+
 stringE="Chat\nGPT"
 print(stringE)
 print(stringE.splitlines())      #字符串.splitlines()=>把字符串按照换行符(\r \n \r\n)进行分
@@ -100,3 +101,6 @@ print(stringE.splitlines())      #字符串.splitlines()=>把字符串按照换�
 # \n 表示换行符（Newline）。
 print("字符“T”的索引:",stringE.index("T"))
 print(stringE[-1])
+
+stringF="0"
+print(stringF.join("123")) #拼接字符串,在元素之间添加
