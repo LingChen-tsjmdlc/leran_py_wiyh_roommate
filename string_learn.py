@@ -88,7 +88,7 @@ print(stringA.strip())         #字符串.strip()=>把字符串两边的空格�
 print("\n --- 字符串的拆分和拼接 --- ")
 """ --- 字符串的拆分和拼接 --- """
 print(stringA.split("l",2))       #字符串.split(分隔符,拆分次数)=>把字符串按照指定的分隔符进行拆分,拆分指定次数
-print(stringA.rsplit("l",1))      #字符串.rsplit(分隔符,次数)=>把字符串按照指定的分隔符进行拆分,从右边开始拆分,��分指定次数
+print(stringA.rsplit("l",1))      #字符串.rsplit(分隔符,次数)=>把字符串按照指定的分隔符进行拆分,从右边开始拆分,分指定次数
 print(stringA.partition("l"))    #字符串.partition(分隔符)=>把字符串按照指定的分隔符进行拆分,返回一个元组
 print(stringA.rpartition("l"))   #字符串.rpartition(分隔符)=>把字符串按照指定的分隔符进行拆分,返回一个元组
 
