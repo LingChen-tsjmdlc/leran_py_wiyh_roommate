@@ -8,7 +8,54 @@
 
 # 4,[!列表题!]π/4=1-1/3+1/5-1/7+...
 #   利用循环结构使用上面的式子计算最后一项分母为59、999、9999、99999、999999时，π的值，并按照指定格式输出结果。
-#   例如：分母为59时，输出:算到1/59时，π=3.10826856669894713292;最后把所有结果用逗号拼接起来.
+#   例如： 分母为59时，输出:算到1/59时，π=3.10826856669894713292;最后把所有结果用逗号拼接起来.
 
 # 5,接受一个字符串和一个整数列表作为参数，整数列表表示字符串中需要删除的字符的索引。
 #   应该返回一个新的字符串，其中删除了指定索引处的字符。
+
+stringA="Welcome to my world"
+
+n=3
+
+print("第一题")
+
+
+
+print("第二题")
+#songlistId=input("输入一个元素")
+#print(songlistId.strip())
+
+print("第三题")
+
+stringB="This is a test string"
+listA=["apple", "banana", "orange"]
+print(stringB.split(" ",4))
+for a in stringB.split(" ",4):
+    print(a)
+    print(stringB.replace("This", "5", 1))
+    print(stringB.replace("is", "5", 1))
+
+
+
+
+
+
+
+print("第四题")
+
+
+x=0
+for i in [59,999,9999,99999,999999]:
+    n=(i+1)/2
+    print(n)
+    for m in range(x+1):
+        print(m)
+
+
+
+print("第五题")
+listA=[4]
+del stringA[3]
+print(stringA)
+
+
